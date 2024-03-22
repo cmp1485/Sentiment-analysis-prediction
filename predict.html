@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e1e1e; /* Dark background color */
+            color: #fff; /* Text color */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column; /* Align elements vertically */
+        }
+        
+        h1, p, a {
+            margin-bottom: 20px; /* Add vertical spacing between elements */
+        }
+    </style>
+</head>
+<body>
+    <h1>Sentiment Analysis Results</h1>
+    <p>Your review: {{ review }}</p>
+    <p>Sentiment: {{ sentiment }}</p>
+    <p><a href="/">Go back</a></p>
+</body>
+</html>
